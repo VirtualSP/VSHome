@@ -29,26 +29,29 @@
 
   <body>
     <h1>&nbsp;&nbsp; Virtual Audio Speakers System </h1>
-<h3>&nbsp; Stop Putin,Netanyahu and Trump !<br>&nbsp; Otherwise, the 20th century of<br>&nbsp; massacre and destruction will return.</h3>
+<h3>&nbsp; Stop Putin,Netanyahu and Trump !<br>&nbsp; Unite against the Emperors of the 21century !</h3>
 
     <p style="text-align:center;">
      <img style="HEIGHT: 320px; WIDTH: 480px" alt="" src="toputin1.png" border="none">
     </p>
 
-&nbsp;<p class="auto-style1" style="width: 1024px">&nbsp; Using headphones or earphones, you feel the sound comes from just close to your ears or from the center of the head.
-It's quite different from the sound in the audio room with speakers or the real concert hall.<br>
-&nbsp;WVS is a WebApp converts your favorite music to spacial 3D sound by HRTF(head-related 
+&nbsp;<p class="auto-style1" style="width: 1024px">&nbsp; Using headphones or earphones, 
+	you feel the sound comes from just close to your ears or from the center of the head.
+	It's quite different from the sound in the audio room with speakers or the real concert hall.<br>
+&nbsp;This WebApp( VSP ) converts your favorite music to spacial 3D sound by WebAudio's HRTF(head-related 
 	transfer function).<br>
-	HRTF can locate sounds in three dimensions in direction abobe and below, 
-	front and rear, left and right, <br>but not so effective for recognizing the 
-	distance of the frontal sound source. Why?</p>
-	<p class="auto-style1" style="width: 1024px">&nbsp; A sound wave from your 
-	front position will directry reach to your ears rather than through your brain, 
-	so the time and level difference between both ear (ITD,ILD) and reflection 
-	from the wall will be more significant. WVS includes these effects, and also 
-	it works efficiently for the sound files mixed of separately recorded tracks in the studio ( Multi-Track Recording ).</p>
+	However, although WebAudio's HRTF can locate sounds in three dimensions (up-down,left-right),
+	it is not sufficient to express the perspective of the sound source. Why is this?</p>
+	
+	<p class="auto-style1" style="width: 1024px">&nbsp; HRTF gives the location of a sound source 
+	by the time and level difference (ITD/ILD) of the sound waves reaching each ear.<br>
+	But it does not take into account the effects of wall reflections.<br>
+	VSP incorporates these effects to more effectively express the perspective of the sound source,
+	and this effect can also be achieved with  mixed multi-track recording source or ordinary speakers
+	placed indoors.</p>
 
    <p style="text-align:center;">
+		<img  src="fig24.png" width="300" height="200">
      <img  src="fig14.png" width="480" height="160">
     </p>
 
@@ -69,16 +72,12 @@ It's quite different from the sound in the audio room with speakers or the real 
        
        
     <p class="auto-style6" style="width: 1012px">&nbsp;&nbsp; [* features *]<br>&nbsp;
+	/ Adjusts the sound reflected by walls to improve the perspective of the sound source.<br>&nbsp; 
+	  &nbsp;&nbsp;Automatically load previous speakers position if not saved on local storage. ( Dec 2024 )<br>&nbsp;
 	/ Fixed screen for moble ( Sep.2024 )<br>&nbsp;
 	/ More spacial and more rich tone  ( ...Feb.2024 )<br>&nbsp;
-	/ Improved the sound sense of depth. ( Sep 2021 / Jan. 2022:HRTF+) <br>&nbsp; / PWA supported. ( Offline Use / Install to Desktop or Home 
-	: Feb 2020 )
-	<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How to Use Progressive Web Apps on PC/Android<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="https://support.google.com/chrome/answer/9658361">
-	https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DDesktop&amp;hl=en</a>&nbsp;&nbsp;
-	<br>&nbsp; / Corresponds to chrome 66 autoplay policies (Apr.2018)
+	/ Improved the sound sense of depth. ( Sep 2021 / Jan. 2022:HRTF+) <br>&nbsp; 
+	/ Corresponds to chrome 66 autoplay policies (Apr.2018)
 	<br>&nbsp; / Improved natural sound quality  (Apr.2018)
       <br>&nbsp; / Display embeded Album Art
       treble<br>&nbsp; / Supports FLAC files !!
